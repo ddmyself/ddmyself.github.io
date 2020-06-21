@@ -1,0 +1,388 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color: #151817;
+	padding-top: 130px;
+}
+section{
+	height: 4050px;
+	top:10%;
+	width: 100%;
+}
+.Head{
+	width: 100%;
+	height: 115px;
+	background-color:#FFFFFF;
+	position: fixed;
+	top:0;
+	left:0;
+    z-index: 100;
+    transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.3s;
+    opacity: 0.6;
+    /*line-height: 70px;*/
+}
+.Logo {
+position: absolute;
+margin: 2% 0 0 13%; //上、右邊、下、左邊
+}
+.top-list{
+float:right;
+margin: 3% 13% 2% 10%;//上右下左
+}
+.top-list a{
+border:2px solid;
+text-decoration: none;
+color:#197C3F;
+font-size: 28px;
+font-family: monospace;
+font-weight: bold;
+display: inline-block;
+letter-spacing: 2px;
+margin-right: 20px;
+padding:5px;
+}
+.top-list a:hover{
+	background-color: gray;
+}
+
+.About{
+	max-width: 1000px;
+	background-color: gray;
+	margin: 0 19%;
+	height: 680px;
+	padding: 25px;
+	text-align: center;
+	font-size: 0;
+}
+.title_font{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	color: #D4A821;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.img_person{
+	position: absolute;
+	left:29%;
+	top:123%;
+	padding:10px;
+}
+.About_font{
+	border: 2px solid white;
+	color:white;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-indent: 10px;
+	text-align: left;
+	font-family: monospace;
+	position: absolute;
+	left:52%;
+	top:127%;
+	padding: 10px;
+}
+.icon1{
+	position: absolute;
+	left:23%;
+	top:126%;
+}
+.icon2{
+	position: absolute;
+	left:23%;
+	top:138%;
+}
+.describe{
+	background-color:  #197C3F;
+	width: 900px;
+	height: 48px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 25px;
+	color: white;
+	font-weight: bold;
+	text-indent: 10px;
+	text-align: center;
+	font-family: monospace;
+	position: absolute;
+	left:23%;
+	top:173%;
+	padding: 10px;
+
+}
+
+.Edu{
+	max-width: 1000px;
+	margin: 0 19%;
+	padding: 25px;
+	text-align: center;
+	font-size: 0;
+	height: 500px;
+	/*background-color:red;*/
+}
+/*.item{
+	width: 300px;
+	margin: 10px;
+	background-color: blue;
+	float:left;
+	box-sizing: border-box;
+}*/
+.img_logo1{
+	position: absolute;
+	left:20%;
+	top:213%;
+	padding:10px;
+}
+.img_logo2{
+	position: absolute;
+	left:45%;
+	top:213%;
+	padding:10px;
+}
+.img_logo3{
+	position: absolute;
+	left:69.5%;
+	top:213%;
+	padding:10px;
+}
+.ex_font1{
+	text-align: center;
+	border: 2px solid white;
+	color:white;
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	font-family: monospace;
+	position: absolute;
+	left:19.5%;
+	top:239%;
+	padding: 10px;
+}
+.ex_font2{
+	text-align: center;
+	border: 2px solid white;
+	color:white;
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	font-family: monospace;
+	position: absolute;
+	left:44%;
+	top:239%;
+	padding: 10px;
+}
+.ex_font3{
+	text-align: center;
+	border: 2px solid white;
+	color:white;
+	font-size: 24px;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	font-family: monospace;
+	position: absolute;
+	left:69%;
+	top:239%;
+	padding: 10px;
+}
+
+.Club{
+	/*width: 97%;
+	margin-left:10%;*/
+	height: 700px;
+	background-color:white;
+	padding: 10px;
+	text-align: center;
+	font-size: 0;
+}
+.img_club1{
+	border: 5px dashed #D4A821;
+	padding: 10px;
+	position: absolute;
+	left:17%;
+	top:280%;
+}
+.img_club2{
+	border: 5px dashed #D4A821;
+	padding: 10px;
+	position: absolute;
+	left:60%;
+	top:280%;
+}
+.club_font1{
+	text-align: center;
+	color:black;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-indent: 10px;
+	font-family: monospace;
+	position: absolute;
+	left:17%;
+	top:320%;
+	padding: 10px;
+}
+.club_font2{
+	text-align: center;
+	color:black;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-indent: 10px;
+	font-family: monospace;
+	position: absolute;
+	left:57%;
+	top:320%;
+	padding: 10px;
+}
+
+.Goal{
+	max-width: 47.5%;
+	background-color: #197C3F;
+	padding: 25px;
+	text-align: center;
+	font-size: 0;
+	height: 500px;
+}
+.Wish_title{
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial;
+	color: #D4A821;
+	margin-bottom: 10px;
+	position: absolute;
+	left:43%;
+	display: inline-block;
+}
+.Wish_font{
+	max-width: 1000px;
+	text-align: left;
+	border: dashed white 2px;
+	border-width: 2px 3px 2px 5px;
+  	border-radius: 90% 6% 93% 5% / 5% 94% 7% 95%;
+	color:white;
+	font-size: 24px;
+	text-indent: center;
+	letter-spacing: 2px;
+	font-family: monospace;
+	position: absolute;
+	left:54%;
+	top:370%;
+	padding:22px;
+	display: inline-block;
+}
+.goal_img{
+	position: absolute;
+	left:10%;
+	top:370%;
+}
+.goal_font{
+	color:white;
+	font-weight: bold;
+  	padding:22px;
+	font-size: 26px;
+	letter-spacing: 2px;
+	line-height: 45px;
+	text-align: left;
+	font-family: monospace;
+	position: absolute;	
+	display: inline-block;
+	left:12%;
+	top:378%;
+}
+.Life{
+	width: 97%;
+	height: 850px;
+	background-color:yellow;
+	padding: 25px;
+	text-align: center;
+	font-size: 0;
+}
+.life01{
+	border: 2px solid;
+	padding: 10px;
+	position: absolute;
+	left:8%;
+	top:435%;
+}
+.life02{
+	border: 2px solid;
+	padding: 10px;
+	position: absolute;
+	left:27%;
+	top:435%;
+}
+.life03{
+	border: 2px solid;
+	padding: 10px;
+	position: absolute;
+	left:74.5%;
+	top:473%;
+}
+.life04{
+	border: 2px solid;
+	padding: 10px;
+	position: absolute;
+	left:45%;
+	top:435%;
+}
+.life05{
+	border: 2px solid;
+	padding: 10px;
+	position: absolute;
+	left:8%;
+	top:473%;
+}
+.life06{
+	border: 2px solid;
+	padding: 10px;
+	position: absolute;
+	left:32%;
+	top:473%;
+}
+.life07{
+	border: 2px solid;
+	padding: 10px;
+	position: absolute;
+	left:68%;
+	top:435%;
+}
+.life09{
+	border: 2px solid;
+	padding: 10px;
+	position: absolute;
+	left:50.5%;
+	top:473%;
+}
+/*特效*/
+.pic {transform:scale(1,1);
+transition: all 1s ease-out;}
+.pic:hover{transform:scale(1.2,1.2);}
+
+.gotop{
+	/*background-color: red;*/
+	/*float: right;*/
+	position: fixed;
+	z-index: 99;
+	/*margin-top: -500px;*/
+	right:30px;
+	bottom:10px;
+	cursor: pointer;
+	display: inline-block;
+}
+footer{
+	background-color: #197C3F; 
+	position: relative;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.bottom{
+	color:white;
+	font-size: 16px;
+	font-family: monospace;
+	text-align: center;
+	letter-spacing: 2px;
+	padding: 20px;
+}
